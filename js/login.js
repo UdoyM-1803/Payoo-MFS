@@ -36,7 +36,7 @@ document.getElementById('btn-login').addEventListener('click', function(event) {
     // Bad way to validate
     if (phoneNumber === '016' && pinNumber === '1234') {
         console.log('You are logged in');
-        window.location.href = '/Payoo-MFS/home.html';
+        window.location.href = './home.html';
     }
     else {
         alert('Wrong phone Number or Pin Number');
